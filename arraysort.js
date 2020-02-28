@@ -11,6 +11,7 @@ usageMessage = () => {
 errorMessage = (s) => {
     console.log("Error: " + s);
 }
+
 stripQuotes = (s) => {
     if ((s[0] == "'") && (s[s.length -1] == "'")) {
         s = s.substr(1, s.length -2);
